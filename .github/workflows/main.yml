@@ -1,0 +1,17 @@
+name: Test package
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install reqs
+        run: pip3 install .
+      - name: Run tests
+        run: coverage run --source=ml_utils/ -m pytest -sv test/ && coverage report -m
