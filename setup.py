@@ -5,7 +5,7 @@ with open('./requirements.txt') as f:
 with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
-    name="ml_utils",
+    name="ml_dev_utils",
     version="0.0.1",
     author="Jerin KA",
     author_email="me@example.com",
