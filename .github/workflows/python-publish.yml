@@ -16,7 +16,9 @@ jobs:
       with:
         python-version: '3.x'
     - name: install reqs
-      run: pip3 install .
+      run: |
+        pip install wheel
+        pip install .
     - name: Build package
       run: python setup.py sdist bdist_wheel
     - name: Publish package
