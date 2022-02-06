@@ -1,7 +1,7 @@
-# Python package template
-A package template for quickly creating a new package with test and publishing to pypi as workflow
+# ML Bricks
+A package for reusing functions that repeat during machine learning and data science related works
 
-[![Build](https://github.com/jerinka/ml_bricks/actions/workflows/main.yml/badge.svg)](https://github.com/jerinka/ml_bricks/actions/workflows/main.yml)
+[![Tests](https://github.com/jerinka/ml_bricks/actions/workflows/main.yml/badge.svg)](https://github.com/jerinka/ml_bricks/actions/workflows/main.yml)
 
 [![pypi](https://github.com/jerinka/ml_bricks/actions/workflows/python-publish.yml/badge.svg)](https://github.com/jerinka/ml_bricks/actions/workflows/python-publish.yml)
 
