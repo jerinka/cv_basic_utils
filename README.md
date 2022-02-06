@@ -1,9 +1,9 @@
 # Python package template
 A package template for quickly creating a new package with test and publishing to pypi as workflow
 
-[![Build](https://github.com/jerinka/PackageSnippet1/actions/workflows/main.yml/badge.svg)](https://github.com/jerinka/PackageSnippet1/actions/workflows/main.yml)
+[![Build](https://github.com/jerinka/ml_utils/actions/workflows/main.yml/badge.svg)](https://github.com/jerinka/ml_utils/actions/workflows/main.yml)
 
-[![pypi](https://github.com/jerinka/PackageSnippet1/actions/workflows/python-publish.yml/badge.svg)](https://github.com/jerinka/PackageSnippet1/actions/workflows/python-publish.yml)
+[![pypi](https://github.com/jerinka/ml_utils/actions/workflows/python-publish.yml/badge.svg)](https://github.com/jerinka/ml_utils/actions/workflows/python-publish.yml)
 
 # Install from Pypi
 ```pip install PackageSnippet1```
