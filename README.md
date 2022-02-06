@@ -1,19 +1,19 @@
 # Python package template
 A package template for quickly creating a new package with test and publishing to pypi as workflow
 
-[![Build](https://github.com/jerinka/ml_utils/actions/workflows/main.yml/badge.svg)](https://github.com/jerinka/ml_utils/actions/workflows/main.yml)
+[![Build](https://github.com/jerinka/ml_bricks/actions/workflows/main.yml/badge.svg)](https://github.com/jerinka/ml_bricks/actions/workflows/main.yml)
 
-[![pypi](https://github.com/jerinka/ml_utils/actions/workflows/python-publish.yml/badge.svg)](https://github.com/jerinka/ml_utils/actions/workflows/python-publish.yml)
+[![pypi](https://github.com/jerinka/ml_bricks/actions/workflows/python-publish.yml/badge.svg)](https://github.com/jerinka/ml_bricks/actions/workflows/python-publish.yml)
 
 # Install from Pypi
-```pip install ml_dev_utils```
+```pip install ml_bricks```
 
 # Local install
 ```git clone https://github.com/jerinka/PackageSnippet1```\
-```pip3 install -e ml_dev_utils```
+```pip3 install -e ml_bricks```
 
 # Test and Coverage
-```coverage run --source=ml_utils/ -m pytest -v test/ && coverage report -m```\
+```coverage run --source=ml_bricks/ -m pytest -v test/ && coverage report -m```\
 ```coverage html -d coverage_html```
 
 # build
@@ -22,14 +22,14 @@ A package template for quickly creating a new package with test and publishing t
 
 # testpypi
 ```twine upload --repository testpypi dist/* ```\
-```pip install -i https://test.pypi.org/simple/ ml_dev_utils ```
+```pip install -i https://test.pypi.org/simple/ ml_bricks ```
 
 # pypi
 ```twine upload dist/*```\
-```pip install -U ml_dev_utils```
+```pip install -U ml_bricks```
 
 # Quick usage
-```import ml_dev_utils as pk1```\
+```import ml_bricks as pk1```\
 ```pk1.subpackage1.moduleA.fun_a()```
 
 

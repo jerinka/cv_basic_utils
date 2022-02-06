@@ -5,8 +5,8 @@ with open('./requirements.txt') as f:
 with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
-    name="ml_dev_utils",
-    version="0.0.1",
+    name="ml_bricks",
+    version="0.0.2",
     author="Jerin KA",
     author_email="me@example.com",
     description="Common utils package",

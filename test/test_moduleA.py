@@ -1,6 +1,6 @@
-import ml_utils as mlu
-#import ml_utils.subpackage1.moduleA as moduleA
-#import ml_utils.subpackage2.moduleB as moduleB
+import ml_bricks as mlu
+#import ml_bricks.subpackage1.moduleA as moduleA
+#import ml_bricks.subpackage2.moduleB as moduleB
 import unittest
 
 
