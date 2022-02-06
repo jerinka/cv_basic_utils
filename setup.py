@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
     name="ml_utils",
-    version="0.0.7",
+    version="0.0.1",
     author="Jerin KA",
     author_email="me@example.com",
     description="Common utils package",

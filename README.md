@@ -17,7 +17,8 @@ A package template for quickly creating a new package with test and publishing t
 ```python setup.py sdist bdist_wheel```
 
 # Coverage test
-```coverage run --source=ml_utils/ -m pytest -v test/ && coverage report -m```
+```coverage run --source=ml_utils/ -m pytest -v test/ && coverage report -m```\
+```coverage html -d coverage_html```
 
 # testpypi
 ```twine upload --repository testpypi dist/* ```\
