@@ -9,7 +9,7 @@ A package for reusing functions that repeat during machine learning and data sci
 ```pip install ml_bricks```
 
 # Local install
-```git clone https://github.com/jerinka/PackageSnippet1```\
+```git clone https://github.com/jerinka/ml_bricks```\
 ```pip3 install -e ml_bricks```
 
 # Test and Coverage
