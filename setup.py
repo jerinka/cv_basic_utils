@@ -5,13 +5,13 @@ with open('./requirements.txt') as f:
 with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
-    name="ml_bricks",
-    version="0.0.3",
+    name="cv_basic_utils",
+    version="0.0.4",
     author="Jerin K A",
     author_email="jerin.electronics@gmail.com",
     description="Common utils for machine learning, computer vision",
-    url = 'https://github.com/jerinka/ml_bricks',
-    download_url = 'https://github.com/jerinka/ml_bricks/archive/refs/tags/v0.0.3.tar.gz',
+    url = 'https://github.com/jerinka/cv_basic_utils',
+    download_url = 'https://github.com/jerinka/cv_basic_utils/archive/refs/tags/v0.0.3.tar.gz',
     keywords = ['machine-learning', 'utils', 'vision-utils'],
     install_requires=required,
     long_description=long_description,

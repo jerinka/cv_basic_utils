@@ -15,5 +15,5 @@ jobs:
         run: pip3 install .
       - name: Run tests
         run: |
-          coverage run --source=ml_bricks/ -m pytest -sv test/ && coverage report -m
+          coverage run --source=cv_basic_utils/ -m pytest -sv test/ && coverage report -m
           coverage html -d coverage_html

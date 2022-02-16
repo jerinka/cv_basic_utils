@@ -1,19 +1,19 @@
-# ML Bricks
-A package for reusing functions that repeat during machine learning and data science related works
+# CV BASIC UTILS
+A package for reusing functions that repeat during computer vision and machine learning works
 
-[![Tests](https://github.com/jerinka/ml_bricks/actions/workflows/main.yml/badge.svg)](https://github.com/jerinka/ml_bricks/actions/workflows/main.yml)
+[![Tests](https://github.com/jerinka/cv_basic_utils/actions/workflows/main.yml/badge.svg)](https://github.com/jerinka/cv_basic_utils/actions/workflows/main.yml)
 
-[![pypi](https://github.com/jerinka/ml_bricks/actions/workflows/python-publish.yml/badge.svg)](https://github.com/jerinka/ml_bricks/actions/workflows/python-publish.yml)
+[![pypi](https://github.com/jerinka/cv_basic_utils/actions/workflows/python-publish.yml/badge.svg)](https://github.com/jerinka/cv_basic_utils/actions/workflows/python-publish.yml)
 
 # Install from Pypi
-```pip install ml_bricks```
+```pip install cv_basic_utils```
 
 # Local install
-```git clone https://github.com/jerinka/ml_bricks```\
-```pip3 install -e ml_bricks```
+```git clone https://github.com/jerinka/cv_basic_utils```\
+```pip3 install -e cv_basic_utils```
 
 # Test and Coverage
-```coverage run --source=ml_bricks/ -m pytest -v test/ && coverage report -m```\
+```coverage run --source=cv_basic_utils/ -m pytest -v test/ && coverage report -m```\
 ```coverage html -d coverage_html```
 
 # build
@@ -21,15 +21,16 @@ A package for reusing functions that repeat during machine learning and data sci
 ```python setup.py sdist bdist_wheel```
 
 # testpypi
+```pip install twine```\
 ```twine upload --repository testpypi dist/* ```\
-```pip install -i https://test.pypi.org/simple/ ml_bricks ```
+```pip install -i https://test.pypi.org/simple/ cv_basic_utils ```
 
 # pypi
 ```twine upload dist/*```\
-```pip install -U ml_bricks```
+```pip install -U cv_basic_utils```
 
 # Quick usage
-```import ml_bricks as pk1```\
+```import cv_basic_utils as pk1```\
 ```pk1.subpackage1.moduleA.fun_a()```
 
 

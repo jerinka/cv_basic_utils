@@ -1,7 +1,7 @@
 import unittest
 import os
-import ml_bricks as mlu
-from ml_bricks.path_utils.path_utils import makedir, get_file_name, delete_file, deletedir, get_files
+import cv_basic_utils as mlu
+from cv_basic_utils.path_utils.path_utils import makedir, get_file_name, delete_file, deletedir, get_files
 
 class TestPathUtils(unittest.TestCase):
     def test_makedir(self):

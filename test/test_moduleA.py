@@ -1,6 +1,5 @@
-import ml_bricks as mlu
-#import ml_bricks.subpackage1.moduleA as moduleA
-#import ml_bricks.subpackage2.moduleB as moduleB
+import cv_basic_utils as mlu
+
 import unittest
 
 

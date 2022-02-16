@@ -1,4 +1,4 @@
-import ml_bricks as mlu
+import cv_basic_utils as mlu
 import unittest
 
 
